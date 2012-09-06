@@ -48,11 +48,16 @@ div#center {
 }
 
 div#content-esmadmin {
-    margin: 0 15px;
+    margin: 25px 15px;
     max-width: 997px;
+    height:600px;
+
     padding: 0;
     position: relative;
     text-align: center;
+    -moz-box-shadow: 0 0 5px 5px #ccc;
+    -webkit-box-shadow: 0 0 5px 5px #ccc;
+    box-shadow: 0 0 5px 5px #ccc;
 }
 
 .dark-blue
