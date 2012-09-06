@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>easyPurchase Analytics</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function ($) {
+        if ((navigator.userAgent.match(/iPad/i))) {
+            $("head").append("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"css/ipad.css?v=1.18.5.0\" charset=\"utf-8\" \/>");
+            $("head").append("<meta name=\"viewport\" content-width=1001px, minimum-scale=1.0, maximum-scale=1.0 \/>");
+        }
+    });
+  </script>
+  <%= csrf_meta_tags %>
+</head>
+<!--[if lt IE 7]><body class="ie7 ie6"><![endif]>
+<!--[if IE 7]><body class="ie7"><![endif]-->
+<!--[if gt IE 7]><body><![endif]-->
+<!--[if !IE]><!-->
+<body>
+  <!-- <![endif]-->
+  <!--[if lte IE 6]><script src="apis/js/ie6/warning.js"></script><script>window.onload=function(){e("apis/js/ie6/")}</script><![endif]-->
+  <div id="center">
+    <!-- Header -->
+    <div class="header">
+      <a href="#" onclick="window.open('http://www.esmsolutions.com', '', 'width=800, height=580, top=15, left==15, toolbar=yes, menubar=yes, scrollbars=1, resizable=1, location=0');return false">
+        <img src="assets/DefaultEsmBanner.jpg" class="resizeEsmBanner" alt="ESM Banner" title="ESM Banner"/>
+      </a>
+    </div>
+    <div class="clearboth"></div>   
+    <!-- Navigation -->
+    <div class="navigation">
+      <!-- Product Name -->
+      <div id="productLogo" class="product-name">         
+          <img src="assets/Default_logo.jpg" alt='easyPurchase Logo' title='easyPurchase Logo' />
+      </div>
+    </div>
+    <!-- End Navigation -->
+    <div class="clearboth"></div>
+    <!-- Content -->
+    <div id="content-esmadmin">
+      <%= yield %>
+    </div>
+    <!-- End Content -->
+    <br class="clear" />
+    <!-- Footer -->
+    <div class="clearfooter"></div>
+    <div id="footer">
+      <div class="newfooter">
+        <div class="footerleft"><a href="#">esm solutions.com</a></div>
+        <div class="footerbg">
+          <div class="copyright">
+            <span>Support:  <a href='mailto:helpdesk@evisions.com'>helpdesk@evisions.com</a></span>
+          </div>
+          <div class="footerright">  
+            <span class="footer-legal">&copy; 2012 eVisions, Inc., &copy; 2000-2012 ESM Solutions Corporation.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--11 jan 2012-->
+  </div>
+</body>
+</html>

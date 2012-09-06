@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+td.top {
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle;
+}
+td.bottom {
+    vertical-align: bottom;
+}
+td.left {
+    text-align: left;
+}
+td.center {
+    text-align: center;
+}
+td.right {
+    text-align: right;
+}
+br.clear {
+    clear: both;
+}
+body {
+    background: none repeat scroll 0 0 white;
+    color: black;
+    line-height: 1;
+}
+ol, ul {
+}
+table {
+}
+caption, th, td {
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+command, datalist, source {
+    display: none;
+}
+article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+figure, menu {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+dl menu, menu dl, menu menu, menu ol, menu ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+html {
+    overflow-y: scroll;
+}
+body {
+    background-color: #FFFFFF;
+}
+strong, b {
+    font-weight: bold;
+}
+em, i {
+    font-style: italic;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+.ie7 address {
+    font-style: normal;
+}
+.hideme {
+    left: -999em;
+    position: absolute;
+    top: -999em;
+}
+label, input[type="button"], input[type="submit"], button {
+}
+input, textarea {
+    outline: medium none;
+    resize: none;
+}
+q:lang(de) {
+    quotes: "„" "“" "‚" "‘";
+}
+q:lang(en) {
+    quotes: "“" "”" "‘" "’";
+}
+abbr[title] {
+    border-bottom: 1px dotted #888888 !important;
+    cursor: help;
+}
+a abbr {
+    cursor: pointer !important;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+img {
+}
+
+sup { line-height: 0;}
