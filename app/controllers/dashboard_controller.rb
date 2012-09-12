@@ -6,17 +6,17 @@ class DashboardController < ApplicationController
     require 'json'
       
     # settings
-    host             = 'evidevjs1.evisions.com'
+    host             = 'prod2.evisions.com'
     port             = 443
     username         = 'esmuser'
     password         = 'esmuser'
-    datablock        = 301
+    datablock        = 5660
     hash             = '5a2fb8e0701ae1c44c6966698c894278'
     sessionParam     = "sessionid"
     setupSessionURI  = "/mw/Session.Setup?Version=4.0&JSONData={\"Mapplets\":[{\"Guid\":\"B052A35E-DC3B-4283-B732-7BEE3B095C5E\",\"Version\":\"4.0\"}]}"
     authenticateURI  = "/mw/Session.Authenticate?username=#{username}&password=#{password}&#{sessionParam}="
     securityTokenURI = "/mw/Session.SecurityToken.Create?#{sessionParam}="
-    uri              = URI("https://evidevjs1.evisions.com") 
+    uri              = URI("https://prod2.evisions.com") 
      
     def getData(siteURI, httpObject)
       request  = Net::HTTP::Get.new siteURI

@@ -55,9 +55,7 @@ div#content-esmadmin {
     padding: 0;
     position: relative;
     text-align: center;
-    -moz-box-shadow: 0 0 5px 5px #ccc;
-    -webkit-box-shadow: 0 0 5px 5px #ccc;
-    box-shadow: 0 0 5px 5px #ccc;
+    border: 1px solid #C9C8CB;
 }
 
 .dark-blue
