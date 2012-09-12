@@ -12,4 +12,5 @@
  *= require_tree .
  *= require potrait-print
  *= require screen
- */
+ *= require reset
+*/
