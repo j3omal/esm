@@ -16,7 +16,9 @@ pre
     font-family: Arial;
 }
 
-
+.content-border{
+    border: 1px solid #C9C8CB;    
+}
 
 body
 {
@@ -55,7 +57,6 @@ div#content-esmadmin {
     padding: 0;
     position: relative;
     text-align: center;
-    border: 1px solid #C9C8CB;
 }
 
 .dark-blue
