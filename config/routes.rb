@@ -1,5 +1,5 @@
 EmbeddedArgosWeb::Application.routes.draw do
-  root :to => 'dashboard#index'
+  root :to => 'dashboard#ec2'
   match '/compare' => 'dashboard#compare'
   match '/ec2' => 'dashboard#ec2'
   # The priority is based upon order of creation:
